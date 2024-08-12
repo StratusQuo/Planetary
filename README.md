@@ -35,17 +35,34 @@ Options:
   -s <folder> - Skip creating the specified folder (can be used multiple times)
 ```
 
-**Examples:**
+## Examples
 
-* **Initialize a new project named "my_p_project":**
+* **Initialize a new project named "TCP":**
   ```bash
-  planetary init my_p_project
+  planetary init TCP
   ```
+  Planetary should generate all the folders necessary as well as a PProj file for you to get started:
 
-* **Generate a template for an existing project named "existing_project":**
+  <img width="1005" alt="image" src="https://github.com/user-attachments/assets/40f4b753-5a61-48ac-acba-4b53246caef6">
+  <img width="866" alt="image" src="https://github.com/user-attachments/assets/3a58d4d6-a1ef-4620-847b-1988365fcbe0">
+
+
+
+  
+
+
+* **Generate a template for an existing project named "TCP":**
+
+  You can also use Planetary to generate a `.PProj` file for existing projects:  
+
   ```bash
   planetary template existing_project
   ```
+
+  <img width="708" alt="image" src="https://github.com/user-attachments/assets/f377a42a-bc7f-4e3c-9b8e-994534697190">
+
+  - **Note**: There's a bug where this command only works when executed from a directory _above_ the existing project. A fix for this should be coming soon.
+ 
 
 * **Initialize a project while skipping the PSPEC folder:**
   ```bash
