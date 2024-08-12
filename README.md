@@ -1,4 +1,4 @@
-# Planetary - A P Language Build Manager
+# Planetary - A [P Language](https://github.com/p-org/P) Build Manager
 
 Planetary is a command-line tool designed to simplify the management and building of [P](https://github.com/p-org/P) projects. It provides a streamlined approach to initializing, templating, and checking P projects, making it easier to get started on a project right away.
 
