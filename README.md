@@ -14,8 +14,7 @@ Planetary is a command-line tool designed to simplify the management and buildin
 1. **Prerequisites:** Ensure you have the following installed:
    * OCaml
    * Dune
-   * Spectrum (for colored output)
-
+  
 2. **Build and Install:**
    
    ```bash
